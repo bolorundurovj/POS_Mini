@@ -96,12 +96,30 @@ namespace lomitdajo
 
         private void btnInStock_Click(object sender, EventArgs e)
         {
+            openContainer(new instock());
             hideSubMenu();
         }
 
         private void btnAllProducts_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+        }
+
+        private Form activeForm = null;
+        private void openContainer(Form childForm)
+        {
+            if(activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(childForm);
+            panelContainer.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
     }
 }
