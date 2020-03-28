@@ -1,6 +1,6 @@
 ﻿namespace lomitdajo
 {
-    partial class instock
+    partial class purchaseorders
     {
         /// <summary>
         /// Required designer variable.
@@ -33,22 +33,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(214, 156);
+            this.button1.Location = new System.Drawing.Point(177, 140);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(98, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "instock";
+            this.button1.Text = "purchaseorders";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // instock
+            // purchaseorders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(693, 389);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Name = "instock";
-            this.Text = "instock";
+            this.Name = "purchaseorders";
+            this.Text = "purchaseorders";
             this.ResumeLayout(false);
 
         }

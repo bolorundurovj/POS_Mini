@@ -61,36 +61,43 @@ namespace lomitdajo
 
         private void btnPurchaseOrders_Click(object sender, EventArgs e)
         {
+            openContainer(new purchaseorders());
             hideSubMenu();
         }
 
         private void btnManageCategories_Click(object sender, EventArgs e)
         {
+            openContainer(new managecategories());
             hideSubMenu();
         }
 
         private void btnManageSuppliers_Click(object sender, EventArgs e)
         {
+            openContainer(new managesuppliers());
             hideSubMenu();
         }
 
         private void btnManageUsers_Click(object sender, EventArgs e)
         {
+            openContainer(new manageusers());
             hideSubMenu();
         }
 
         private void btnSalesReport_Click(object sender, EventArgs e)
         {
+            openContainer(new salesreport());
             hideSubMenu();
         }
 
         private void btnInventoryReport_Click(object sender, EventArgs e)
         {
+            openContainer(new inventoryreport());
             hideSubMenu();
         }
 
         private void btnSearchProducts_Click(object sender, EventArgs e)
         {
+            openContainer(new searchproducts());
             hideSubMenu();
         }
 
@@ -102,6 +109,7 @@ namespace lomitdajo
 
         private void btnAllProducts_Click(object sender, EventArgs e)
         {
+            openContainer(new allproducts());
             hideSubMenu();
         }
 
