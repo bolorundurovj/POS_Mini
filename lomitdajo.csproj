@@ -52,6 +52,12 @@
     <Compile Include="allproducts.Designer.cs">
       <DependentUpon>allproducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <EmbeddedResource Include="allproducts.resx">
       <DependentUpon>allproducts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="managecategories.resx">
       <DependentUpon>managecategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managesuppliers.resx">
+      <DependentUpon>managesuppliers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="manageusers.resx">
       <DependentUpon>manageusers.cs</DependentUpon>

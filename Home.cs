@@ -56,6 +56,7 @@ namespace lomitdajo
 
         private void btnHome_Click(object sender, EventArgs e)
         {
+            openContainer(new dashboard());
             hideSubMenu();
         }
 
