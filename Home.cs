@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace lomitdajo
 {
-    public partial class Home : Form
+    public partial class mainWindow : Form
     {
-        public Home()
+        public mainWindow()
         {
             InitializeComponent();
             customizeDesign();
@@ -52,6 +52,56 @@ namespace lomitdajo
         private void btnProducts_Click(object sender, EventArgs e)
         {
             showSubMenu(panelProductsSubmenu);
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnPurchaseOrders_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnManageCategories_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnManageSuppliers_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnManageUsers_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnSalesReport_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnInventoryReport_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnSearchProducts_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnInStock_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnAllProducts_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
         }
     }
 }
