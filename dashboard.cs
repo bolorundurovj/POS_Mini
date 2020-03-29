@@ -16,5 +16,10 @@ namespace lomitdajo
         {
             InitializeComponent();
         }
+
+        private void bunifuSeparator1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
